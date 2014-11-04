@@ -17,10 +17,14 @@ namespace inClass2 //this is the name of the project. can help prohibit access. 
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        //this is the form and not the button
+        //sender is who called you 
+        private void showNameButton_Click(object sender, EventArgs e)
         {
-
+            //messagebox is an alert
+            MessageBox.Show(nameInput.Text);
+            Console.WriteLine(nameInput.Text);
         }
+
     }
 }
