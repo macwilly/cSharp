@@ -33,7 +33,7 @@
             this.labelNameLast = new System.Windows.Forms.Label();
             this.textBoxNameFirst = new System.Windows.Forms.TextBox();
             this.textBoxNameLast = new System.Windows.Forms.TextBox();
-            this.buttonNameNext = new System.Windows.Forms.Button();
+            this.buttonForm1Next = new System.Windows.Forms.Button();
             this.groupBoxAddress = new System.Windows.Forms.GroupBox();
             this.labeladdressStreet = new System.Windows.Forms.Label();
             this.labelAddressCity = new System.Windows.Forms.Label();
@@ -91,15 +91,15 @@
             this.textBoxNameLast.Size = new System.Drawing.Size(100, 22);
             this.textBoxNameLast.TabIndex = 4;
             // 
-            // buttonNameNext
+            // buttonForm1Next
             // 
-            this.buttonNameNext.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNameNext.Location = new System.Drawing.Point(174, 266);
-            this.buttonNameNext.Name = "buttonNameNext";
-            this.buttonNameNext.Size = new System.Drawing.Size(194, 23);
-            this.buttonNameNext.TabIndex = 5;
-            this.buttonNameNext.Text = "Next";
-            this.buttonNameNext.UseVisualStyleBackColor = true;
+            this.buttonForm1Next.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonForm1Next.Location = new System.Drawing.Point(174, 266);
+            this.buttonForm1Next.Name = "buttonForm1Next";
+            this.buttonForm1Next.Size = new System.Drawing.Size(194, 23);
+            this.buttonForm1Next.TabIndex = 8;
+            this.buttonForm1Next.Text = "Next";
+            this.buttonForm1Next.UseVisualStyleBackColor = true;
             // 
             // groupBoxAddress
             // 
@@ -149,28 +149,28 @@
             this.textBoxAddressStreet.Location = new System.Drawing.Point(107, 34);
             this.textBoxAddressStreet.Name = "textBoxAddressStreet";
             this.textBoxAddressStreet.Size = new System.Drawing.Size(100, 22);
-            this.textBoxAddressStreet.TabIndex = 7;
+            this.textBoxAddressStreet.TabIndex = 5;
             // 
             // textBoxAddressCity
             // 
             this.textBoxAddressCity.Location = new System.Drawing.Point(107, 75);
             this.textBoxAddressCity.Name = "textBoxAddressCity";
             this.textBoxAddressCity.Size = new System.Drawing.Size(100, 22);
-            this.textBoxAddressCity.TabIndex = 8;
+            this.textBoxAddressCity.TabIndex = 6;
             // 
             // textBoxAddressState
             // 
             this.textBoxAddressState.Location = new System.Drawing.Point(107, 115);
             this.textBoxAddressState.Name = "textBoxAddressState";
             this.textBoxAddressState.Size = new System.Drawing.Size(100, 22);
-            this.textBoxAddressState.TabIndex = 9;
+            this.textBoxAddressState.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(534, 403);
-            this.Controls.Add(this.buttonNameNext);
+            this.Controls.Add(this.buttonForm1Next);
             this.Controls.Add(this.groupBoxAddress);
             this.Controls.Add(this.groupBoxName);
             this.Name = "Form1";
@@ -190,7 +190,7 @@
         private System.Windows.Forms.TextBox textBoxNameFirst;
         private System.Windows.Forms.Label labelNameLast;
         private System.Windows.Forms.Label labelNameFirst;
-        private System.Windows.Forms.Button buttonNameNext;
+        private System.Windows.Forms.Button buttonForm1Next;
         private System.Windows.Forms.GroupBox groupBoxAddress;
         private System.Windows.Forms.TextBox textBoxAddressState;
         private System.Windows.Forms.TextBox textBoxAddressCity;
