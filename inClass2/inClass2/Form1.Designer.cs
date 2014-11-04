@@ -35,6 +35,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.formButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -101,12 +102,23 @@
             this.panel3.Size = new System.Drawing.Size(266, 93);
             this.panel3.TabIndex = 7;
             // 
+            // formButton
+            // 
+            this.formButton.Location = new System.Drawing.Point(350, 214);
+            this.formButton.Name = "formButton";
+            this.formButton.Size = new System.Drawing.Size(117, 23);
+            this.formButton.TabIndex = 3;
+            this.formButton.Text = "Open New Form";
+            this.formButton.UseVisualStyleBackColor = true;
+            this.formButton.Click += new System.EventHandler(this.formButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(489, 438);
+            this.Controls.Add(this.formButton);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.showNameButton);
@@ -131,6 +143,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button formButton;
     }
 }
 

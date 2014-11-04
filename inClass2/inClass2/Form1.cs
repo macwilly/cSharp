@@ -43,6 +43,13 @@ namespace inClass2 //this is the name of the project. can help prohibit access. 
             panel3.Visible = !panel3.Visible;
         }
 
+        private void formButton_Click(object sender, EventArgs e)
+        {
+            Form2 fn = new Form2();
+            fn.ShowDialog();
+
+        }
+
 
     }
 }
