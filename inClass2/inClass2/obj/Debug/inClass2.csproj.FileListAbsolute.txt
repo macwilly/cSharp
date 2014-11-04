@@ -7,3 +7,4 @@ C:\Users\Student\Documents\GitHub\cSharp\inClass2\inClass2\obj\Debug\inClass2.Pr
 C:\Users\Student\Documents\GitHub\cSharp\inClass2\inClass2\obj\Debug\inClass2.csproj.GenerateResource.Cache
 C:\Users\Student\Documents\GitHub\cSharp\inClass2\inClass2\obj\Debug\inClass2.exe
 C:\Users\Student\Documents\GitHub\cSharp\inClass2\inClass2\obj\Debug\inClass2.pdb
+C:\Users\Student\Documents\GitHub\cSharp\inClass2\inClass2\obj\Debug\inClass2.Form2.resources

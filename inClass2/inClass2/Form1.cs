@@ -46,6 +46,8 @@ namespace inClass2 //this is the name of the project. can help prohibit access. 
         private void formButton_Click(object sender, EventArgs e)
         {
             Form2 fn = new Form2();
+            //show is not modal
+            //showDialog is modal
             fn.ShowDialog();
 
         }
