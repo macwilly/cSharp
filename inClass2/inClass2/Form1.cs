@@ -15,16 +15,34 @@ namespace inClass2 //this is the name of the project. can help prohibit access. 
         //this is a constructor
         public Form1() 
         {
-            InitializeComponent();
+            InitializeComponent();//this will always be the first thing 
+            //hide the inputs
+            //nameInput.Hide();
+            panel3.Hide();
+            groupBox1.Hide();
         }
         //this is the form and not the button
         //sender is who called you 
         private void showNameButton_Click(object sender, EventArgs e)
         {
             //messagebox is an alert
-            MessageBox.Show(nameInput.Text);
-            Console.WriteLine(nameInput.Text);
+            //MessageBox.Show(nameInput.Text);
+            //Console.WriteLine(nameInput.Text);
+            //nameInput.Text = "Worked?";
+            //panel3.Show();
+            //groupBox1.Show();
+            //how to hide/sgiw the panel?
+            if (panel3.Visible)
+            {
+                showNameButton.Text = "Hide Stuff";
+            }
+            else
+            {
+                showNameButton.Text = "Show Stuff";
+            }
+            panel3.Visible = !panel3.Visible;
         }
+
 
     }
 }
