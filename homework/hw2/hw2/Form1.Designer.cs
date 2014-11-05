@@ -93,6 +93,7 @@
             // 
             // buttonForm1Next
             // 
+            this.buttonForm1Next.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonForm1Next.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonForm1Next.Location = new System.Drawing.Point(174, 266);
             this.buttonForm1Next.Name = "buttonForm1Next";
@@ -100,6 +101,7 @@
             this.buttonForm1Next.TabIndex = 8;
             this.buttonForm1Next.Text = "Next";
             this.buttonForm1Next.UseVisualStyleBackColor = true;
+            this.buttonForm1Next.Click += new System.EventHandler(this.buttonForm1Next_Click);
             // 
             // groupBoxAddress
             // 

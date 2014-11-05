@@ -16,5 +16,20 @@ namespace hw2
         {
             InitializeComponent();
         }
+
+        private void buttonForm1Next_Click(object sender, EventArgs e)
+        {
+            var TxtName = textBoxNameFirst.Text+ " " + textBoxNameLast.Text;
+            Form2 secondForm = new Form2(TxtName);
+            //Show and ShowDialog also impact if you can do a hide or not 
+            secondForm.Show();
+            ////////////////////////////////////
+            // This did not work the way that I wanted it to 
+            //Form1 firstForm = new Form1();
+            //firstForm.Hide();
+            ///////////////////////////////////
+            this.Hide();
+            //this.Close(); when I did this and it worked closed the whole program
+        }
     }
 }
