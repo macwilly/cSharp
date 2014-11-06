@@ -70,6 +70,16 @@ namespace inClass3
             }
         }
 
+        private void otherToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void editToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("You did it !!!");
+        }
+
 
     }
 }
