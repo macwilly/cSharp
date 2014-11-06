@@ -1,0 +1,12 @@
+C:\Users\Student\Documents\GitHub\cSharp\inClass3\inClass3\bin\Debug\inClass3.exe.config
+C:\Users\Student\Documents\GitHub\cSharp\inClass3\inClass3\bin\Debug\inClass3.exe
+C:\Users\Student\Documents\GitHub\cSharp\inClass3\inClass3\bin\Debug\inClass3.pdb
+C:\Users\Student\Documents\GitHub\cSharp\inClass3\inClass3\obj\Debug\inClass3.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\GitHub\cSharp\inClass3\inClass3\obj\Debug\inClass3.Form1.resources
+C:\Users\Student\Documents\GitHub\cSharp\inClass3\inClass3\obj\Debug\inClass3.Properties.Resources.resources
+C:\Users\Student\Documents\GitHub\cSharp\inClass3\inClass3\obj\Debug\inClass3.csproj.GenerateResource.Cache
+C:\Users\Student\Documents\GitHub\cSharp\inClass3\inClass3\obj\Debug\inClass3.exe
+C:\Users\Student\Documents\GitHub\cSharp\inClass3\inClass3\obj\Debug\inClass3.pdb
+C:\Users\Student\Documents\GitHub\cSharp\inClass3\inClass3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Student\Documents\GitHub\cSharp\inClass3\inClass3\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Student\Documents\GitHub\cSharp\inClass3\inClass3\bin\Debug\Newtonsoft.Json.xml

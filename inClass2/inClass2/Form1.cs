@@ -49,6 +49,7 @@ namespace inClass2 //this is the name of the project. can help prohibit access. 
             //show is not modal
             //showDialog is modal
             fn.ShowDialog();
+            nameInput.Text = fn.GetName();
 
         }
 
