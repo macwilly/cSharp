@@ -177,6 +177,7 @@
             // 
             // buttonClearTxt
             // 
+            this.buttonClearTxt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonClearTxt.Location = new System.Drawing.Point(63, 206);
             this.buttonClearTxt.Name = "buttonClearTxt";
             this.buttonClearTxt.Size = new System.Drawing.Size(52, 23);
