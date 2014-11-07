@@ -26,12 +26,13 @@ namespace hw3
             //way with how I am working with everything off of gitHub and 
             //I don't know which machine I will be working from
             StreamReader sr = new StreamReader("MyPets.txt");
+           // clear the box before it is loaded that way you don't have repeat of the data
             comboBoxTxt.Items.Clear();
             while ((val = sr.ReadLine()) !=null)
             {
                 comboBoxTxt.Items.Add(val);
             }
-
+            comboBoxTxt.Sorted = true;
         }
 
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -47,6 +48,11 @@ namespace hw3
         private void buttonClearTxt_Click(object sender, EventArgs e)
         {
             comboBoxTxt.Items.Clear();
+        }
+
+        private void buttonPopXML_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -7,3 +7,12 @@ C:\Users\Student\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.Properti
 C:\Users\Student\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.csproj.GenerateResource.Cache
 C:\Users\Student\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.exe
 C:\Users\Student\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.pdb
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\bin\Debug\hw3.exe.config
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.exe
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.pdb
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\bin\Debug\hw3.exe
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\bin\Debug\hw3.pdb
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.csprojResolveAssemblyReference.cache
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.formFileRead.resources
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.Properties.Resources.resources
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.csproj.GenerateResource.Cache

@@ -30,19 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formFileRead));
             this.groupBoxTxt = new System.Windows.Forms.GroupBox();
+            this.buttonClearTxt = new System.Windows.Forms.Button();
+            this.buttonPopTxt = new System.Windows.Forms.Button();
+            this.comboBoxTxt = new System.Windows.Forms.ComboBox();
             this.groupBoxXML = new System.Windows.Forms.GroupBox();
+            this.buttonPopXML = new System.Windows.Forms.Button();
+            this.comboBoxXML = new System.Windows.Forms.ComboBox();
             this.groupBoxJSON = new System.Windows.Forms.GroupBox();
+            this.buttonPopJSON = new System.Windows.Forms.Button();
+            this.comboBoxJSON = new System.Windows.Forms.ComboBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.comboBoxTxt = new System.Windows.Forms.ComboBox();
-            this.comboBoxXML = new System.Windows.Forms.ComboBox();
-            this.comboBoxJSON = new System.Windows.Forms.ComboBox();
-            this.buttonPopTxt = new System.Windows.Forms.Button();
-            this.buttonPopXML = new System.Windows.Forms.Button();
-            this.buttonPopJSON = new System.Windows.Forms.Button();
-            this.buttonClearTxt = new System.Windows.Forms.Button();
+            this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBoxTxt.SuspendLayout();
             this.groupBoxXML.SuspendLayout();
             this.groupBoxJSON.SuspendLayout();
@@ -62,6 +62,36 @@
             this.groupBoxTxt.TabStop = false;
             this.groupBoxTxt.Text = "Text";
             // 
+            // buttonClearTxt
+            // 
+            this.buttonClearTxt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonClearTxt.Location = new System.Drawing.Point(63, 206);
+            this.buttonClearTxt.Name = "buttonClearTxt";
+            this.buttonClearTxt.Size = new System.Drawing.Size(52, 23);
+            this.buttonClearTxt.TabIndex = 3;
+            this.buttonClearTxt.Text = "Clear";
+            this.buttonClearTxt.UseVisualStyleBackColor = true;
+            this.buttonClearTxt.Click += new System.EventHandler(this.buttonClearTxt_Click);
+            // 
+            // buttonPopTxt
+            // 
+            this.buttonPopTxt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonPopTxt.Location = new System.Drawing.Point(52, 177);
+            this.buttonPopTxt.Name = "buttonPopTxt";
+            this.buttonPopTxt.Size = new System.Drawing.Size(75, 23);
+            this.buttonPopTxt.TabIndex = 3;
+            this.buttonPopTxt.Text = "Populate";
+            this.buttonPopTxt.UseVisualStyleBackColor = true;
+            this.buttonPopTxt.Click += new System.EventHandler(this.buttonPopTxt_Click);
+            // 
+            // comboBoxTxt
+            // 
+            this.comboBoxTxt.FormattingEnabled = true;
+            this.comboBoxTxt.Location = new System.Drawing.Point(6, 41);
+            this.comboBoxTxt.Name = "comboBoxTxt";
+            this.comboBoxTxt.Size = new System.Drawing.Size(121, 25);
+            this.comboBoxTxt.TabIndex = 0;
+            // 
             // groupBoxXML
             // 
             this.groupBoxXML.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -73,6 +103,25 @@
             this.groupBoxXML.TabIndex = 0;
             this.groupBoxXML.TabStop = false;
             this.groupBoxXML.Text = "XML";
+            // 
+            // buttonPopXML
+            // 
+            this.buttonPopXML.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonPopXML.Location = new System.Drawing.Point(52, 177);
+            this.buttonPopXML.Name = "buttonPopXML";
+            this.buttonPopXML.Size = new System.Drawing.Size(75, 23);
+            this.buttonPopXML.TabIndex = 4;
+            this.buttonPopXML.Text = "Populate";
+            this.buttonPopXML.UseVisualStyleBackColor = true;
+            this.buttonPopXML.Click += new System.EventHandler(this.buttonPopXML_Click);
+            // 
+            // comboBoxXML
+            // 
+            this.comboBoxXML.FormattingEnabled = true;
+            this.comboBoxXML.Location = new System.Drawing.Point(6, 41);
+            this.comboBoxXML.Name = "comboBoxXML";
+            this.comboBoxXML.Size = new System.Drawing.Size(121, 25);
+            this.comboBoxXML.TabIndex = 1;
             // 
             // groupBoxJSON
             // 
@@ -87,6 +136,24 @@
             this.groupBoxJSON.TabStop = false;
             this.groupBoxJSON.Text = "JSON";
             // 
+            // buttonPopJSON
+            // 
+            this.buttonPopJSON.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonPopJSON.Location = new System.Drawing.Point(52, 177);
+            this.buttonPopJSON.Name = "buttonPopJSON";
+            this.buttonPopJSON.Size = new System.Drawing.Size(75, 23);
+            this.buttonPopJSON.TabIndex = 4;
+            this.buttonPopJSON.Text = "Populate";
+            this.buttonPopJSON.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxJSON
+            // 
+            this.comboBoxJSON.FormattingEnabled = true;
+            this.comboBoxJSON.Location = new System.Drawing.Point(6, 41);
+            this.comboBoxJSON.Name = "comboBoxJSON";
+            this.comboBoxJSON.Size = new System.Drawing.Size(121, 25);
+            this.comboBoxJSON.TabIndex = 2;
+            // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -94,7 +161,7 @@
             this.closeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(684, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(637, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -106,6 +173,13 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
+            // closeToolStripMenuItem1
+            // 
+            this.closeToolStripMenuItem1.Name = "closeToolStripMenuItem1";
+            this.closeToolStripMenuItem1.Size = new System.Drawing.Size(103, 22);
+            this.closeToolStripMenuItem1.Text = "Close";
+            this.closeToolStripMenuItem1.Click += new System.EventHandler(this.closeToolStripMenuItem1_Click);
+            // 
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
@@ -113,84 +187,11 @@
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
-            // closeToolStripMenuItem1
-            // 
-            this.closeToolStripMenuItem1.Name = "closeToolStripMenuItem1";
-            this.closeToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.closeToolStripMenuItem1.Text = "Close";
-            this.closeToolStripMenuItem1.Click += new System.EventHandler(this.closeToolStripMenuItem1_Click);
-            // 
-            // comboBoxTxt
-            // 
-            this.comboBoxTxt.FormattingEnabled = true;
-            this.comboBoxTxt.Location = new System.Drawing.Point(6, 41);
-            this.comboBoxTxt.Name = "comboBoxTxt";
-            this.comboBoxTxt.Size = new System.Drawing.Size(121, 25);
-            this.comboBoxTxt.TabIndex = 0;
-            // 
-            // comboBoxXML
-            // 
-            this.comboBoxXML.FormattingEnabled = true;
-            this.comboBoxXML.Location = new System.Drawing.Point(6, 41);
-            this.comboBoxXML.Name = "comboBoxXML";
-            this.comboBoxXML.Size = new System.Drawing.Size(121, 25);
-            this.comboBoxXML.TabIndex = 1;
-            // 
-            // comboBoxJSON
-            // 
-            this.comboBoxJSON.FormattingEnabled = true;
-            this.comboBoxJSON.Location = new System.Drawing.Point(6, 41);
-            this.comboBoxJSON.Name = "comboBoxJSON";
-            this.comboBoxJSON.Size = new System.Drawing.Size(121, 25);
-            this.comboBoxJSON.TabIndex = 2;
-            // 
-            // buttonPopTxt
-            // 
-            this.buttonPopTxt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonPopTxt.Location = new System.Drawing.Point(52, 177);
-            this.buttonPopTxt.Name = "buttonPopTxt";
-            this.buttonPopTxt.Size = new System.Drawing.Size(75, 23);
-            this.buttonPopTxt.TabIndex = 3;
-            this.buttonPopTxt.Text = "Populate";
-            this.buttonPopTxt.UseVisualStyleBackColor = true;
-            this.buttonPopTxt.Click += new System.EventHandler(this.buttonPopTxt_Click);
-            // 
-            // buttonPopXML
-            // 
-            this.buttonPopXML.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonPopXML.Location = new System.Drawing.Point(52, 177);
-            this.buttonPopXML.Name = "buttonPopXML";
-            this.buttonPopXML.Size = new System.Drawing.Size(75, 23);
-            this.buttonPopXML.TabIndex = 4;
-            this.buttonPopXML.Text = "Populate";
-            this.buttonPopXML.UseVisualStyleBackColor = true;
-            // 
-            // buttonPopJSON
-            // 
-            this.buttonPopJSON.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonPopJSON.Location = new System.Drawing.Point(52, 177);
-            this.buttonPopJSON.Name = "buttonPopJSON";
-            this.buttonPopJSON.Size = new System.Drawing.Size(75, 23);
-            this.buttonPopJSON.TabIndex = 4;
-            this.buttonPopJSON.Text = "Populate";
-            this.buttonPopJSON.UseVisualStyleBackColor = true;
-            // 
-            // buttonClearTxt
-            // 
-            this.buttonClearTxt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonClearTxt.Location = new System.Drawing.Point(63, 206);
-            this.buttonClearTxt.Name = "buttonClearTxt";
-            this.buttonClearTxt.Size = new System.Drawing.Size(52, 23);
-            this.buttonClearTxt.TabIndex = 3;
-            this.buttonClearTxt.Text = "Clear";
-            this.buttonClearTxt.UseVisualStyleBackColor = true;
-            this.buttonClearTxt.Click += new System.EventHandler(this.buttonClearTxt_Click);
-            // 
             // formFileRead
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 362);
+            this.ClientSize = new System.Drawing.Size(637, 345);
             this.Controls.Add(this.groupBoxJSON);
             this.Controls.Add(this.groupBoxXML);
             this.Controls.Add(this.groupBoxTxt);
