@@ -42,6 +42,7 @@
             this.buttonPopTxt = new System.Windows.Forms.Button();
             this.buttonPopXML = new System.Windows.Forms.Button();
             this.buttonPopJSON = new System.Windows.Forms.Button();
+            this.buttonClearTxt = new System.Windows.Forms.Button();
             this.groupBoxTxt.SuspendLayout();
             this.groupBoxXML.SuspendLayout();
             this.groupBoxJSON.SuspendLayout();
@@ -51,6 +52,7 @@
             // groupBoxTxt
             // 
             this.groupBoxTxt.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBoxTxt.Controls.Add(this.buttonClearTxt);
             this.groupBoxTxt.Controls.Add(this.buttonPopTxt);
             this.groupBoxTxt.Controls.Add(this.comboBoxTxt);
             this.groupBoxTxt.Location = new System.Drawing.Point(12, 43);
@@ -109,12 +111,14 @@
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
             this.closeToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.closeToolStripMenuItem.Text = "Close";
+            this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
             // closeToolStripMenuItem1
             // 
             this.closeToolStripMenuItem1.Name = "closeToolStripMenuItem1";
             this.closeToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.closeToolStripMenuItem1.Text = "Close";
+            this.closeToolStripMenuItem1.Click += new System.EventHandler(this.closeToolStripMenuItem1_Click);
             // 
             // comboBoxTxt
             // 
@@ -171,6 +175,16 @@
             this.buttonPopJSON.Text = "Populate";
             this.buttonPopJSON.UseVisualStyleBackColor = true;
             // 
+            // buttonClearTxt
+            // 
+            this.buttonClearTxt.Location = new System.Drawing.Point(63, 206);
+            this.buttonClearTxt.Name = "buttonClearTxt";
+            this.buttonClearTxt.Size = new System.Drawing.Size(52, 23);
+            this.buttonClearTxt.TabIndex = 3;
+            this.buttonClearTxt.Text = "Clear";
+            this.buttonClearTxt.UseVisualStyleBackColor = true;
+            this.buttonClearTxt.Click += new System.EventHandler(this.buttonClearTxt_Click);
+            // 
             // formFileRead
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -211,6 +225,7 @@
         private System.Windows.Forms.Button buttonPopTxt;
         private System.Windows.Forms.Button buttonPopXML;
         private System.Windows.Forms.Button buttonPopJSON;
+        private System.Windows.Forms.Button buttonClearTxt;
     }
 }
 

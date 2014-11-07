@@ -1,0 +1,10 @@
+Cat
+Dog
+Fish
+Turtle
+Mouse
+Rot
+Bird
+Snake
+Gerbil
+Hamster
