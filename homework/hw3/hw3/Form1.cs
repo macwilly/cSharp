@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Xml;
+using Newtonsoft.Json;
 
 namespace hw3
 {
@@ -52,7 +54,49 @@ namespace hw3
 
         private void buttonPopXML_Click(object sender, EventArgs e)
         {
-
+            XmlReader xr = XmlReader.Create("MyPets.xml");
+            comboBoxXML.Items.Clear();
+            while (xr.Read())
+            {
+                if (xr.NodeType == XmlNodeType.Text)
+                {
+                    comboBoxXML.Items.Add(xr.Value);
+                }
+            }
+            comboBoxXML.Sorted = true;
         }
+
+        private void buttonXmlClear_Click(object sender, EventArgs e)
+        {
+            comboBoxXML.Items.Clear();
+        }
+
+        private void buttonPopJSON_Click(object sender, EventArgs e)
+        {
+            StreamReader srJson = new StreamReader("MyPets.json");
+            string json = srJson.ReadToEnd();
+            List<string> vals = JsonConvert.DeserializeObject<List<string>>(json);
+            foreach (string val in vals)
+                comboBoxJSON.Items.Add(val);
+
+            comboBoxJSON.Sorted = true;
+        }
+
+        private void buttonJsonClear_Click(object sender, EventArgs e)
+        {
+            comboBoxJSON.Items.Clear();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            groupBoxTxt.Hide();
+            
+            if(comboBoxTxt.Visible!=true)
+            {
+                button2.Text = "Show";
+                groupBoxTxt.Show();
+            }
+        }
+       
     }
 }

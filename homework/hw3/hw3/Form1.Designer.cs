@@ -43,6 +43,10 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.buttonXmlClear = new System.Windows.Forms.Button();
+            this.buttonJsonClear = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBoxTxt.SuspendLayout();
             this.groupBoxXML.SuspendLayout();
             this.groupBoxJSON.SuspendLayout();
@@ -65,7 +69,7 @@
             // buttonClearTxt
             // 
             this.buttonClearTxt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonClearTxt.Location = new System.Drawing.Point(63, 206);
+            this.buttonClearTxt.Location = new System.Drawing.Point(64, 207);
             this.buttonClearTxt.Name = "buttonClearTxt";
             this.buttonClearTxt.Size = new System.Drawing.Size(52, 23);
             this.buttonClearTxt.TabIndex = 3;
@@ -95,6 +99,7 @@
             // groupBoxXML
             // 
             this.groupBoxXML.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.groupBoxXML.Controls.Add(this.buttonXmlClear);
             this.groupBoxXML.Controls.Add(this.buttonPopXML);
             this.groupBoxXML.Controls.Add(this.comboBoxXML);
             this.groupBoxXML.Location = new System.Drawing.Point(218, 43);
@@ -126,6 +131,7 @@
             // groupBoxJSON
             // 
             this.groupBoxJSON.BackColor = System.Drawing.SystemColors.Highlight;
+            this.groupBoxJSON.Controls.Add(this.buttonJsonClear);
             this.groupBoxJSON.Controls.Add(this.buttonPopJSON);
             this.groupBoxJSON.Controls.Add(this.comboBoxJSON);
             this.groupBoxJSON.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -145,6 +151,7 @@
             this.buttonPopJSON.TabIndex = 4;
             this.buttonPopJSON.Text = "Populate";
             this.buttonPopJSON.UseVisualStyleBackColor = true;
+            this.buttonPopJSON.Click += new System.EventHandler(this.buttonPopJSON_Click);
             // 
             // comboBoxJSON
             // 
@@ -187,11 +194,52 @@
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
+            // buttonXmlClear
+            // 
+            this.buttonXmlClear.Location = new System.Drawing.Point(69, 207);
+            this.buttonXmlClear.Name = "buttonXmlClear";
+            this.buttonXmlClear.Size = new System.Drawing.Size(49, 23);
+            this.buttonXmlClear.TabIndex = 5;
+            this.buttonXmlClear.Text = "Clear";
+            this.buttonXmlClear.UseVisualStyleBackColor = true;
+            this.buttonXmlClear.Click += new System.EventHandler(this.buttonXmlClear_Click);
+            // 
+            // buttonJsonClear
+            // 
+            this.buttonJsonClear.Location = new System.Drawing.Point(69, 206);
+            this.buttonJsonClear.Name = "buttonJsonClear";
+            this.buttonJsonClear.Size = new System.Drawing.Size(49, 23);
+            this.buttonJsonClear.TabIndex = 6;
+            this.buttonJsonClear.Text = "Clear";
+            this.buttonJsonClear.UseVisualStyleBackColor = true;
+            this.buttonJsonClear.Click += new System.EventHandler(this.buttonJsonClear_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(270, 310);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Hide";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(76, 301);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(52, 40);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Hide";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // formFileRead
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(637, 345);
+            this.ClientSize = new System.Drawing.Size(637, 428);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBoxJSON);
             this.Controls.Add(this.groupBoxXML);
             this.Controls.Add(this.groupBoxTxt);
@@ -228,6 +276,10 @@
         private System.Windows.Forms.Button buttonPopXML;
         private System.Windows.Forms.Button buttonPopJSON;
         private System.Windows.Forms.Button buttonClearTxt;
+        private System.Windows.Forms.Button buttonXmlClear;
+        private System.Windows.Forms.Button buttonJsonClear;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

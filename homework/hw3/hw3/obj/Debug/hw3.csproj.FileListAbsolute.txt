@@ -16,3 +16,6 @@ C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw
 C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.formFileRead.resources
 C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.Properties.Resources.resources
 C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\obj\Debug\hw3.csproj.GenerateResource.Cache
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw3\hw3\bin\Debug\Newtonsoft.Json.xml
