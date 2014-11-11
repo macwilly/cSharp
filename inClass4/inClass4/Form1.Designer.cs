@@ -152,6 +152,7 @@
             this.buttonSOAP.TabIndex = 4;
             this.buttonSOAP.Text = "Populate";
             this.buttonSOAP.UseVisualStyleBackColor = true;
+            this.buttonSOAP.Click += new System.EventHandler(this.buttonSOAP_Click);
             // 
             // buttonRESTFUL
             // 
