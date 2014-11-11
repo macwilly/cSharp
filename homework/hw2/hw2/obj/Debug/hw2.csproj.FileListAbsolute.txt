@@ -8,3 +8,13 @@ C:\Users\Student\Documents\GitHub\cSharp\homework\hw2\hw2\obj\Debug\hw2.csproj.G
 C:\Users\Student\Documents\GitHub\cSharp\homework\hw2\hw2\obj\Debug\hw2.exe
 C:\Users\Student\Documents\GitHub\cSharp\homework\hw2\hw2\obj\Debug\hw2.pdb
 C:\Users\Student\Documents\GitHub\cSharp\homework\hw2\hw2\obj\Debug\hw2.Form2.resources
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw2\hw2\bin\Debug\hw2.exe.config
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw2\hw2\obj\Debug\hw2.exe
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw2\hw2\obj\Debug\hw2.pdb
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw2\hw2\bin\Debug\hw2.exe
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw2\hw2\bin\Debug\hw2.pdb
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw2\hw2\obj\Debug\hw2.csprojResolveAssemblyReference.cache
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw2\hw2\obj\Debug\hw2.Form1.resources
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw2\hw2\obj\Debug\hw2.Form2.resources
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw2\hw2\obj\Debug\hw2.Properties.Resources.resources
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\homework\hw2\hw2\obj\Debug\hw2.csproj.GenerateResource.Cache

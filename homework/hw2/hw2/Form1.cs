@@ -19,7 +19,7 @@ namespace hw2
 
         private void buttonForm1Next_Click(object sender, EventArgs e)
         {
-            var TxtName = textBoxNameFirst.Text+ " " + textBoxNameLast.Text;
+            string TxtName = textBoxNameFirst.Text+ " " + textBoxNameLast.Text;
             Form2 secondForm = new Form2(TxtName);
             //Show and ShowDialog also impact if you can do a hide or not 
             secondForm.Show();

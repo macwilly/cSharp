@@ -89,12 +89,16 @@ namespace hw3
 
         private void button2_Click(object sender, EventArgs e)
         {
-            groupBoxTxt.Hide();
+           // groupBoxTxt.Hide();
             
             if(comboBoxTxt.Visible!=true)
             {
-                button2.Text = "Show";
+                button2.Text = "Hide";
                 groupBoxTxt.Show();
+            }
+            else{
+                button2.Text = "Show";
+                groupBoxTxt.Hide();
             }
         }
        

@@ -34,17 +34,17 @@
             this.buttonPopTxt = new System.Windows.Forms.Button();
             this.comboBoxTxt = new System.Windows.Forms.ComboBox();
             this.groupBoxXML = new System.Windows.Forms.GroupBox();
+            this.buttonXmlClear = new System.Windows.Forms.Button();
             this.buttonPopXML = new System.Windows.Forms.Button();
             this.comboBoxXML = new System.Windows.Forms.ComboBox();
             this.groupBoxJSON = new System.Windows.Forms.GroupBox();
+            this.buttonJsonClear = new System.Windows.Forms.Button();
             this.buttonPopJSON = new System.Windows.Forms.Button();
             this.comboBoxJSON = new System.Windows.Forms.ComboBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.buttonXmlClear = new System.Windows.Forms.Button();
-            this.buttonJsonClear = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBoxTxt.SuspendLayout();
@@ -109,6 +109,16 @@
             this.groupBoxXML.TabStop = false;
             this.groupBoxXML.Text = "XML";
             // 
+            // buttonXmlClear
+            // 
+            this.buttonXmlClear.Location = new System.Drawing.Point(69, 207);
+            this.buttonXmlClear.Name = "buttonXmlClear";
+            this.buttonXmlClear.Size = new System.Drawing.Size(49, 23);
+            this.buttonXmlClear.TabIndex = 5;
+            this.buttonXmlClear.Text = "Clear";
+            this.buttonXmlClear.UseVisualStyleBackColor = true;
+            this.buttonXmlClear.Click += new System.EventHandler(this.buttonXmlClear_Click);
+            // 
             // buttonPopXML
             // 
             this.buttonPopXML.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -141,6 +151,16 @@
             this.groupBoxJSON.TabIndex = 1;
             this.groupBoxJSON.TabStop = false;
             this.groupBoxJSON.Text = "JSON";
+            // 
+            // buttonJsonClear
+            // 
+            this.buttonJsonClear.Location = new System.Drawing.Point(69, 206);
+            this.buttonJsonClear.Name = "buttonJsonClear";
+            this.buttonJsonClear.Size = new System.Drawing.Size(49, 23);
+            this.buttonJsonClear.TabIndex = 6;
+            this.buttonJsonClear.Text = "Clear";
+            this.buttonJsonClear.UseVisualStyleBackColor = true;
+            this.buttonJsonClear.Click += new System.EventHandler(this.buttonJsonClear_Click);
             // 
             // buttonPopJSON
             // 
@@ -193,26 +213,6 @@
             this.closeToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
-            // 
-            // buttonXmlClear
-            // 
-            this.buttonXmlClear.Location = new System.Drawing.Point(69, 207);
-            this.buttonXmlClear.Name = "buttonXmlClear";
-            this.buttonXmlClear.Size = new System.Drawing.Size(49, 23);
-            this.buttonXmlClear.TabIndex = 5;
-            this.buttonXmlClear.Text = "Clear";
-            this.buttonXmlClear.UseVisualStyleBackColor = true;
-            this.buttonXmlClear.Click += new System.EventHandler(this.buttonXmlClear_Click);
-            // 
-            // buttonJsonClear
-            // 
-            this.buttonJsonClear.Location = new System.Drawing.Point(69, 206);
-            this.buttonJsonClear.Name = "buttonJsonClear";
-            this.buttonJsonClear.Size = new System.Drawing.Size(49, 23);
-            this.buttonJsonClear.TabIndex = 6;
-            this.buttonJsonClear.Text = "Clear";
-            this.buttonJsonClear.UseVisualStyleBackColor = true;
-            this.buttonJsonClear.Click += new System.EventHandler(this.buttonJsonClear_Click);
             // 
             // button1
             // 
