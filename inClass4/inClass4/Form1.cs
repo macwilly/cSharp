@@ -53,5 +53,32 @@ namespace inClass4
                 comboBoxSOAP.Items.Add(beers[i]);
             }
         }
+
+        private void buttonRESTFUL_Click(object sender, EventArgs e)
+        {
+            List<string> beers = new List<string>();
+            string uri = "http://simon.ist.rit.edu:8080/BeerService/resources/Services/Beers";
+            HttpWebRequest req = (HttpWebRequest)WebRequest.Create(uri);
+            req.Method = "GET";
+
+            try 
+            {
+                HttpWebResponse res = (HttpWebResponse)req.GetResponse();
+
+                Stream str = res.GetResponseStream();
+                XmlReader xr = XmlReader.Create(str);
+                while (xr.Read())
+                {
+                    if (xr.Value != "") comboBoxRESTFUL.Items.Add(xr.Value);
+                }
+                res.Close();
+            
+            }
+            catch(Exception ex)
+            {
+                Console.Write("Error");
+            }
+
+        }
     }
 }

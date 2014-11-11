@@ -162,6 +162,7 @@
             this.buttonRESTFUL.TabIndex = 4;
             this.buttonRESTFUL.Text = "Populate";
             this.buttonRESTFUL.UseVisualStyleBackColor = true;
+            this.buttonRESTFUL.Click += new System.EventHandler(this.buttonRESTFUL_Click);
             // 
             // formBeer
             // 
