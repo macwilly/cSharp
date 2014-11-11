@@ -1,0 +1,10 @@
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass4\inClass4\bin\Debug\inClass4.exe.config
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass4\inClass4\bin\Debug\inClass4.exe
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass4\inClass4\bin\Debug\inClass4.pdb
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass4\inClass4\obj\Debug\inClass4.csprojResolveAssemblyReference.cache
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass4\inClass4\obj\Debug\inClass4.formBeer.resources
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass4\inClass4\obj\Debug\inClass4.Properties.Resources.resources
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass4\inClass4\obj\Debug\inClass4.csproj.GenerateResource.Cache
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass4\inClass4\obj\Debug\inClass4.exe
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass4\inClass4\obj\Debug\inClass4.pdb
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass4\inClass4\bin\Debug\CookComputing.XmlRpcV2.dll
