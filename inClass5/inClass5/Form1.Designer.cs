@@ -28,14 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.checkedBoxList = new System.Windows.Forms.CheckedListBox();
             this.textBoxTextValue = new System.Windows.Forms.TextBox();
             this.textBoxOnOff = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.buttonCheckBoxList = new System.Windows.Forms.Button();
+            this.myToolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // checkBox1
@@ -71,13 +74,17 @@
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.allCheckBox_CheckedChanged);
             // 
-            // checkedListBox1
+            // checkedBoxList
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(273, 44);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(120, 94);
-            this.checkedListBox1.TabIndex = 3;
+            this.checkedBoxList.FormattingEnabled = true;
+            this.checkedBoxList.Items.AddRange(new object[] {
+            "One",
+            "Two",
+            "Three"});
+            this.checkedBoxList.Location = new System.Drawing.Point(273, 44);
+            this.checkedBoxList.Name = "checkedBoxList";
+            this.checkedBoxList.Size = new System.Drawing.Size(120, 94);
+            this.checkedBoxList.TabIndex = 3;
             // 
             // textBoxTextValue
             // 
@@ -101,6 +108,7 @@
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Text Value";
+            this.label1.MouseEnter += new System.EventHandler(this.label1_MouseEnter);
             // 
             // label2
             // 
@@ -111,16 +119,28 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "On/Off";
             // 
+            // buttonCheckBoxList
+            // 
+            this.buttonCheckBoxList.Location = new System.Drawing.Point(273, 144);
+            this.buttonCheckBoxList.Name = "buttonCheckBoxList";
+            this.buttonCheckBoxList.Size = new System.Drawing.Size(120, 23);
+            this.buttonCheckBoxList.TabIndex = 8;
+            this.buttonCheckBoxList.Text = "Get the Values";
+            this.buttonCheckBoxList.UseVisualStyleBackColor = true;
+            this.buttonCheckBoxList.Click += new System.EventHandler(this.buttonCheckBoxList_Click);
+            this.buttonCheckBoxList.MouseHover += new System.EventHandler(this.buttonCheckBoxList_MouseHover);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(433, 320);
+            this.Controls.Add(this.buttonCheckBoxList);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxOnOff);
             this.Controls.Add(this.textBoxTextValue);
-            this.Controls.Add(this.checkedListBox1);
+            this.Controls.Add(this.checkedBoxList);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
@@ -136,11 +156,13 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.CheckedListBox checkedBoxList;
         private System.Windows.Forms.TextBox textBoxTextValue;
         private System.Windows.Forms.TextBox textBoxOnOff;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button buttonCheckBoxList;
+        private System.Windows.Forms.ToolTip myToolTip;
     }
 }
 
