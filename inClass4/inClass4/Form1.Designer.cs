@@ -32,14 +32,16 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBoxXMLRPC = new System.Windows.Forms.GroupBox();
-            this.groupBoxSOAP = new System.Windows.Forms.GroupBox();
-            this.groupBoxRESTFUL = new System.Windows.Forms.GroupBox();
-            this.comboBoxXMLRPC = new System.Windows.Forms.ComboBox();
-            this.comboBoxSOAP = new System.Windows.Forms.ComboBox();
-            this.comboBoxRESTFUL = new System.Windows.Forms.ComboBox();
             this.buttonXMLRPC = new System.Windows.Forms.Button();
+            this.comboBoxXMLRPC = new System.Windows.Forms.ComboBox();
+            this.groupBoxSOAP = new System.Windows.Forms.GroupBox();
             this.buttonSOAP = new System.Windows.Forms.Button();
+            this.comboBoxSOAP = new System.Windows.Forms.ComboBox();
+            this.groupBoxRESTFUL = new System.Windows.Forms.GroupBox();
             this.buttonRESTFUL = new System.Windows.Forms.Button();
+            this.comboBoxRESTFUL = new System.Windows.Forms.ComboBox();
+            this.buttonGetPrice = new System.Windows.Forms.Button();
+            this.textBoxGetPrice = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.groupBoxXMLRPC.SuspendLayout();
             this.groupBoxSOAP.SuspendLayout();
@@ -83,6 +85,25 @@
             this.groupBoxXMLRPC.TabStop = false;
             this.groupBoxXMLRPC.Text = "XML-RPC";
             // 
+            // buttonXMLRPC
+            // 
+            this.buttonXMLRPC.Location = new System.Drawing.Point(52, 113);
+            this.buttonXMLRPC.Name = "buttonXMLRPC";
+            this.buttonXMLRPC.Size = new System.Drawing.Size(75, 23);
+            this.buttonXMLRPC.TabIndex = 3;
+            this.buttonXMLRPC.Text = "Populate";
+            this.buttonXMLRPC.UseVisualStyleBackColor = true;
+            this.buttonXMLRPC.Click += new System.EventHandler(this.buttonXMLRPC_Click);
+            // 
+            // comboBoxXMLRPC
+            // 
+            this.comboBoxXMLRPC.FormattingEnabled = true;
+            this.comboBoxXMLRPC.Location = new System.Drawing.Point(6, 50);
+            this.comboBoxXMLRPC.Name = "comboBoxXMLRPC";
+            this.comboBoxXMLRPC.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxXMLRPC.Sorted = true;
+            this.comboBoxXMLRPC.TabIndex = 0;
+            // 
             // groupBoxSOAP
             // 
             this.groupBoxSOAP.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -94,6 +115,25 @@
             this.groupBoxSOAP.TabIndex = 0;
             this.groupBoxSOAP.TabStop = false;
             this.groupBoxSOAP.Text = "SOAP";
+            // 
+            // buttonSOAP
+            // 
+            this.buttonSOAP.Location = new System.Drawing.Point(52, 113);
+            this.buttonSOAP.Name = "buttonSOAP";
+            this.buttonSOAP.Size = new System.Drawing.Size(75, 23);
+            this.buttonSOAP.TabIndex = 4;
+            this.buttonSOAP.Text = "Populate";
+            this.buttonSOAP.UseVisualStyleBackColor = true;
+            this.buttonSOAP.Click += new System.EventHandler(this.buttonSOAP_Click);
+            // 
+            // comboBoxSOAP
+            // 
+            this.comboBoxSOAP.FormattingEnabled = true;
+            this.comboBoxSOAP.Location = new System.Drawing.Point(6, 50);
+            this.comboBoxSOAP.Name = "comboBoxSOAP";
+            this.comboBoxSOAP.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxSOAP.Sorted = true;
+            this.comboBoxSOAP.TabIndex = 1;
             // 
             // groupBoxRESTFUL
             // 
@@ -107,53 +147,6 @@
             this.groupBoxRESTFUL.TabStop = false;
             this.groupBoxRESTFUL.Text = "RESTFUL";
             // 
-            // comboBoxXMLRPC
-            // 
-            this.comboBoxXMLRPC.FormattingEnabled = true;
-            this.comboBoxXMLRPC.Location = new System.Drawing.Point(6, 50);
-            this.comboBoxXMLRPC.Name = "comboBoxXMLRPC";
-            this.comboBoxXMLRPC.Size = new System.Drawing.Size(121, 26);
-            this.comboBoxXMLRPC.Sorted = true;
-            this.comboBoxXMLRPC.TabIndex = 0;
-            // 
-            // comboBoxSOAP
-            // 
-            this.comboBoxSOAP.FormattingEnabled = true;
-            this.comboBoxSOAP.Location = new System.Drawing.Point(6, 50);
-            this.comboBoxSOAP.Name = "comboBoxSOAP";
-            this.comboBoxSOAP.Size = new System.Drawing.Size(121, 26);
-            this.comboBoxSOAP.Sorted = true;
-            this.comboBoxSOAP.TabIndex = 1;
-            // 
-            // comboBoxRESTFUL
-            // 
-            this.comboBoxRESTFUL.FormattingEnabled = true;
-            this.comboBoxRESTFUL.Location = new System.Drawing.Point(6, 50);
-            this.comboBoxRESTFUL.Name = "comboBoxRESTFUL";
-            this.comboBoxRESTFUL.Size = new System.Drawing.Size(121, 26);
-            this.comboBoxRESTFUL.Sorted = true;
-            this.comboBoxRESTFUL.TabIndex = 1;
-            // 
-            // buttonXMLRPC
-            // 
-            this.buttonXMLRPC.Location = new System.Drawing.Point(52, 113);
-            this.buttonXMLRPC.Name = "buttonXMLRPC";
-            this.buttonXMLRPC.Size = new System.Drawing.Size(75, 23);
-            this.buttonXMLRPC.TabIndex = 3;
-            this.buttonXMLRPC.Text = "Populate";
-            this.buttonXMLRPC.UseVisualStyleBackColor = true;
-            this.buttonXMLRPC.Click += new System.EventHandler(this.buttonXMLRPC_Click);
-            // 
-            // buttonSOAP
-            // 
-            this.buttonSOAP.Location = new System.Drawing.Point(52, 113);
-            this.buttonSOAP.Name = "buttonSOAP";
-            this.buttonSOAP.Size = new System.Drawing.Size(75, 23);
-            this.buttonSOAP.TabIndex = 4;
-            this.buttonSOAP.Text = "Populate";
-            this.buttonSOAP.UseVisualStyleBackColor = true;
-            this.buttonSOAP.Click += new System.EventHandler(this.buttonSOAP_Click);
-            // 
             // buttonRESTFUL
             // 
             this.buttonRESTFUL.Location = new System.Drawing.Point(52, 113);
@@ -164,12 +157,41 @@
             this.buttonRESTFUL.UseVisualStyleBackColor = true;
             this.buttonRESTFUL.Click += new System.EventHandler(this.buttonRESTFUL_Click);
             // 
+            // comboBoxRESTFUL
+            // 
+            this.comboBoxRESTFUL.FormattingEnabled = true;
+            this.comboBoxRESTFUL.Location = new System.Drawing.Point(6, 50);
+            this.comboBoxRESTFUL.Name = "comboBoxRESTFUL";
+            this.comboBoxRESTFUL.Size = new System.Drawing.Size(121, 26);
+            this.comboBoxRESTFUL.Sorted = true;
+            this.comboBoxRESTFUL.TabIndex = 1;
+            // 
+            // buttonGetPrice
+            // 
+            this.buttonGetPrice.Location = new System.Drawing.Point(424, 406);
+            this.buttonGetPrice.Name = "buttonGetPrice";
+            this.buttonGetPrice.Size = new System.Drawing.Size(95, 23);
+            this.buttonGetPrice.TabIndex = 3;
+            this.buttonGetPrice.Text = "Get Price";
+            this.buttonGetPrice.UseVisualStyleBackColor = true;
+            this.buttonGetPrice.Click += new System.EventHandler(this.buttonGetPrice_Click);
+            // 
+            // textBoxGetPrice
+            // 
+            this.textBoxGetPrice.Enabled = false;
+            this.textBoxGetPrice.Location = new System.Drawing.Point(424, 366);
+            this.textBoxGetPrice.Name = "textBoxGetPrice";
+            this.textBoxGetPrice.Size = new System.Drawing.Size(202, 25);
+            this.textBoxGetPrice.TabIndex = 4;
+            // 
             // formBeer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(638, 441);
+            this.Controls.Add(this.textBoxGetPrice);
+            this.Controls.Add(this.buttonGetPrice);
             this.Controls.Add(this.groupBoxRESTFUL);
             this.Controls.Add(this.groupBoxSOAP);
             this.Controls.Add(this.groupBoxXMLRPC);
@@ -203,6 +225,8 @@
         private System.Windows.Forms.ComboBox comboBoxSOAP;
         private System.Windows.Forms.Button buttonRESTFUL;
         private System.Windows.Forms.ComboBox comboBoxRESTFUL;
+        private System.Windows.Forms.Button buttonGetPrice;
+        private System.Windows.Forms.TextBox textBoxGetPrice;
     }
 }
 

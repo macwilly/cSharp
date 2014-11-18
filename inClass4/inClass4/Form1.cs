@@ -56,7 +56,17 @@ namespace inClass4
 
         private void buttonRESTFUL_Click(object sender, EventArgs e)
         {
-            List<string> beers = new List<string>();
+           //new way
+            inClass4.BeerService myBeer = new inClass4.BeerService();
+            string[] beers = myBeer.GetBeers();
+            for(int i = 0;i<beers.Length;i++)
+            {
+                comboBoxRESTFUL.Items.Add(beers[i]);
+            }
+            
+            
+            //old way
+            /*List<string> beers = new List<string>();
             string uri = "http://simon.ist.rit.edu:8080/BeerService/resources/Services/Beers";
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create(uri);
             req.Method = "GET";
@@ -77,8 +87,17 @@ namespace inClass4
             catch(Exception ex)
             {
                 Console.Write("Error");
-            }
+            }*/
 
+        }
+
+        private void buttonGetPrice_Click(object sender, EventArgs e)
+        {
+            inClass4.BeerService myBeer = new inClass4.BeerService();
+            string beerName = comboBoxRESTFUL.Items[comboBoxRESTFUL.SelectedIndex].ToString();
+            string beerPrice = myBeer.GetPrice(beerName);
+            // put it into the text box
+            textBoxGetPrice.Text = beerPrice;
         }
     }
 }
