@@ -1,0 +1,9 @@
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass7\inClass7\bin\Debug\inClass7.exe.config
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass7\inClass7\bin\Debug\inClass7.exe
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass7\inClass7\bin\Debug\inClass7.pdb
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass7\inClass7\obj\Debug\inClass7.csprojResolveAssemblyReference.cache
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass7\inClass7\obj\Debug\inClass7.Form1.resources
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass7\inClass7\obj\Debug\inClass7.Properties.Resources.resources
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass7\inClass7\obj\Debug\inClass7.csproj.GenerateResource.Cache
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass7\inClass7\obj\Debug\inClass7.exe
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\inClass7\inClass7\obj\Debug\inClass7.pdb
