@@ -1,0 +1,8 @@
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\dragDrop\dragDrop\bin\Debug\dragDrop.exe.config
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\dragDrop\dragDrop\bin\Debug\dragDrop.exe
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\dragDrop\dragDrop\bin\Debug\dragDrop.pdb
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\dragDrop\dragDrop\obj\Debug\dragDrop.Form1.resources
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\dragDrop\dragDrop\obj\Debug\dragDrop.Properties.Resources.resources
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\dragDrop\dragDrop\obj\Debug\dragDrop.csproj.GenerateResource.Cache
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\dragDrop\dragDrop\obj\Debug\dragDrop.exe
+C:\Users\Mackenzie Willard\Documents\GitHub\cSharp\dragDrop\dragDrop\obj\Debug\dragDrop.pdb
