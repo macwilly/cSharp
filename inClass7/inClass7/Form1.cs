@@ -21,7 +21,7 @@ namespace inClass7
         private void buttonGetIt_Click(object sender, EventArgs e)
         {
             // needs to be in Bin/Debug
-            XmlReader xmlFile = XmlReader.Create(@"data.xml");
+            XmlReader xmlFile = XmlReader.Create(@"http://simon.ist.rit.edu:8080/Services/resources/ESD/Organizations");
             DataSet dataSet = new DataSet();
 
             //read the xml into dataset
