@@ -45,6 +45,9 @@ namespace inClass4
 
         private void buttonSOAP_Click(object sender, EventArgs e)
         {
+
+            //is a Simple Object Access protocal
+            //http://spf13.com/post/soap-vs-rest
             serviceBeer.BeerClient bc = new serviceBeer.BeerClient();
             string[] beers = bc.getBeers();
             comboBoxSOAP.Items.Clear();
